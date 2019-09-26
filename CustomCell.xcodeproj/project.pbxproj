@@ -15,6 +15,8 @@
 		C25ECA8B233B59950048B25B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25ECA89233B59950048B25B /* LaunchScreen.storyboard */; };
 		C25ECA96233B59960048B25B /* CustomCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25ECA95233B59960048B25B /* CustomCellTests.swift */; };
 		C25ECAA1233B59960048B25B /* CustomCellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25ECAA0233B59960048B25B /* CustomCellUITests.swift */; };
+		C25ECAAF233B68160048B25B /* MycustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25ECAAE233B68160048B25B /* MycustomTableViewCell.swift */; };
+		C25ECAB1233B6B6C0048B25B /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25ECAB0233B6B6C0048B25B /* MyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C25ECA9C233B59960048B25B /* CustomCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25ECAA0233B59960048B25B /* CustomCellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellUITests.swift; sourceTree = "<group>"; };
 		C25ECAA2233B59960048B25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25ECAAE233B68160048B25B /* MycustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MycustomTableViewCell.swift; sourceTree = "<group>"; };
+		C25ECAB0233B6B6C0048B25B /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				C25ECA89233B59950048B25B /* LaunchScreen.storyboard */,
 				C25ECA8C233B59950048B25B /* Info.plist */,
 				C25ECA84233B59950048B25B /* CustomCell.xcdatamodeld */,
+				C25ECAAE233B68160048B25B /* MycustomTableViewCell.swift */,
+				C25ECAB0233B6B6C0048B25B /* MyTableViewController.swift */,
 			);
 			path = CustomCell;
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 			files = (
 				C25ECA80233B59950048B25B /* ViewController.swift in Sources */,
 				C25ECA86233B59950048B25B /* CustomCell.xcdatamodeld in Sources */,
+				C25ECAAF233B68160048B25B /* MycustomTableViewCell.swift in Sources */,
+				C25ECAB1233B6B6C0048B25B /* MyTableViewController.swift in Sources */,
 				C25ECA7E233B59950048B25B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
